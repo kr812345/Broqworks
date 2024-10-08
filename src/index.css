@@ -31,7 +31,6 @@ body{
   z-index: -1;
 }
 @media(max-width: 768px){
-
   .about-title img{
       width: 130px;
       right: -20px;

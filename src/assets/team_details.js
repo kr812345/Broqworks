@@ -1,7 +1,7 @@
 
 import Manager from './Manager.jpg'
 import Founder from './Founder.png'
-import AbcXyz from './AbcXyz.png'
+import Krishna from './Krishna.jpg'
 
 const Team_details = [
   {
@@ -15,9 +15,9 @@ const Team_details = [
     s_role: "Manager, BroqWorks"
   },
   {
-    s_image: AbcXyz,
+    s_image: Krishna,
     s_name: "Krishna Yadav",
-    s_role: "AbcXyz, BroqWorks"
+    s_role: "Design & Dev, BroqWorks"
   }
 ];
 

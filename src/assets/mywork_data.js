@@ -1,39 +1,50 @@
 import Treebo from './Treebo.png'
 import gym from './gym.png'
-import gym_pic from './gym_pic.jpg'
-import project4_img from './project_4.svg'
-import project5_img from './project_5.svg'
-import project6_img from './project_6.svg'
+import Trigno from './Trigno.png'
+import Bidang from './Bidang.png'
+import BioFit from './BioFit.png'
+
 
 const mywork_data = [
     { w_no: "01",
       category: "Web Design",
       works: [
         {
-          w_name: "Portfolio Website",
+          w_name: "TERRA MAYAA",
           w_img: Treebo, // replace with actual image paths
-          w_desc: "A sleek portfolio website designed for Hotel in Guwahati.",
-          w_result:"",
-          w_web:"https://terramayaa.com/"
+          w_desc: "We designed and developed a dynamic hotel website aimed at offering a seamless user experience while showcasing the hotel's services and amenities. The website features a modern, elegant design, optimized for performance and responsiveness across devices.",
+          w_web:"https://terramayaa.com/",
+          w_result:"The result was a sleek, easy-to-navigate site that increased online bookings and boosted the hotel's digital presence, reflecting the brand's luxury and professionalism.",
         },
         {
-          w_name: "E-commerce Store",
+          w_name: "JUNA",
           w_img: gym,
-          w_desc: "An online store for fashion products with a user-friendly interface.",
-          w_web:"https://juna.in/"
+          w_desc: "We were tasked with designing and developing a fully functional gym website that aligned with the client's brand and provided a seamless user experience. The website was built with a sleek, dark-themed design to create a modern and professional look, tailored specifically for a fitness audience.",
+          w_web:"https://juna.in/",
+          w_result:"The website effectively improved the client's online presence, drawing more visitors, boosting engagement, and leading to an increase in gym membership sign-ups. The client was highly satisfied with the clean interface and its easy-to-update content."
         },
         {
-          w_name: "Portfolio Website",
-          w_img: Treebo, // replace with actual image paths
-          w_desc: "A sleek portfolio website designed for a freelance photographer.",
-          w_web:"https://terramayaa.com/"
+          w_name: "TRINGO",
+          w_img: Trigno, // replace with actual image paths
+          w_desc: "We were tasked with designing and developing a fully functional gym website that aligned with the client's brand and provided a seamless user experience. The website was built with a sleek, dark-themed design to create a modern and professional look, tailored specifically for a fitness audience.",
+          w_web:"https://trignothegym.com/",
+          w_result:"The new design significantly enhanced the client's digital brand presence. The website attracted more traffic, resulting in increased inquiries and sign-ups for gym memberships. The clean, professional look and seamless navigation were particularly appreciated by users and helped the gym stand out from local competitors."
+
         },
         
         {
-          w_name: "E-commerce Store",
-          w_img: gym,
-          w_desc: "An online store for fashion products with a user-friendly interface.",
-          w_web:"https://juna.in/"
+          w_name: "BIDANG",
+          w_img: Bidang,
+          w_desc: "We were tasked with designing and developing a fully functional gym website that aligned with the client's brand and provided a seamless user experience. The website was built with a sleek, dark-themed design to create a modern and professional look, tailored specifically for a fitness audience.",
+          w_web:"https://www.bidangmma.com/index.php",
+          w_result:"The website helped the client improve customer engagement by making it easy for visitors to explore services and sign up for classes. The intuitive design and interactive elements resulted in a noticeable increase in user retention and conversions, ultimately boosting the gym's membership growth."
+        },
+        {
+          w_name: "BIOFIT GYM",
+          w_img: BioFit,
+          w_desc: "We were tasked with designing and developing a fully functional gym website that aligned with the client's brand and provided a seamless user experience. The website was built with a sleek, dark-themed design to create a modern and professional look, tailored specifically for a fitness audience.",
+          w_web:"https://biofitgym.com/BiofitGym/Home.jsp",
+          w_result:"The website helped the client improve customer engagement by making it easy for visitors to explore services and sign up for classes. The intuitive design and interactive elements resulted in a noticeable increase in user retention and conversions, ultimately boosting the gym's membership growth."
         },
       ],
     },

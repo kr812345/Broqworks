@@ -57,7 +57,7 @@ const MyWork = () => {
       {displayedCategories.map((category, index) => (
         <div key={index} className="work-category">
           <h2 className="work-category-title">{category.category}</h2>
-          <Slider {...settings}>
+          <Slider className='slick-slider' {...settings}>
             {category.works.map((work, workIndex) => (
               <div key={workIndex} className="work-item">
                 <img

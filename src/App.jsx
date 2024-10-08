@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Navbar from './Components/Navbar/Navbar';
 import Hero from './Components/Hero/Hero';
 import About from './Components/About/About';
@@ -12,7 +12,8 @@ import MyWorkData from './Components/MyWorkData/MyWorkData';
 import ReadMore from './Components/ReadMore/ReadMore';
 import MoreServices from './Components/MoreServices/MoreServices';
 import MoreWork from './Components/MoreWork/MoreWork';
-import PostClient from './Components/PastClients/PastClient';
+import PastClients from './Components/PastClients/PastClients';
+import Banner from './Components/Banner/Banner'
 
 const App = () => {
   useEffect(() => {
@@ -22,6 +23,7 @@ const App = () => {
   
   return (
     <Router>
+      <Banner />
       <Navbar />
       <Routes>
         <Route path="/" element={
@@ -30,7 +32,7 @@ const App = () => {
             <About />
             <Services />
             <MyWork />
-            <PostClient/>
+            <PastClients/>
             <Team />
             <Contact />
           </>

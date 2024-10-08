@@ -1,0 +1,73 @@
+.PasrClient-container {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-between;
+    padding: 0vw 10%    ;
+    gap: 50px;
+    padding-bottom: 10vh;
+    /* height: 80vh; */
+    
+}
+
+.clients {
+    display: flex;
+    padding: 0vw 1vw;
+    gap: 50px;
+
+}
+
+.clients img {
+    width: 100px;
+    cursor: pointer;
+    /* opacity: 80%; */
+}
+.top{
+    position: relative;
+}
+.top h1{
+    padding: 0px 30px;
+    font-size: 40px;
+    font-weight: 400;
+}
+.top img{
+    width: 80px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+@media (max-width:768px) {
+        .PasrClient-container{
+            width: 100%;
+            /* overflow-x: hidden; */
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: start;
+        }
+        .top h1{
+            padding: 0px;
+            font-size: 30px;
+          }
+          .top img{
+            width: 60px;
+          }
+          .clients{
+            display: flex;
+            align-items: start;
+            justify-content: start;
+            gap: 20px;
+            opacity: 90%;
+          }
+          .clients img{
+            width: 100px;
+            opacity: 90%;
+            object-fit: cover;
+          }
+          .clients IMG:nth-child(2){
+            width: 94px;
+          }
+
+}

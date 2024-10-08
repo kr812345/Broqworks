@@ -123,10 +123,10 @@ const handleSwipeRight = () => {
           <p>We are currently available to take on new projects, so feel free to send us a message about anything that you want us to work on. You can contact us anytime.</p>
           <div className="contact-details">
             <div className="contact-detail">
-              <a href="mailto:nihal@broqworks.com"><img src={mail_icon} alt="" /><p>nihal@broqworks.com</p></a>
+              <a href="mailto:getintouch@broqworks.com"><img src={mail_icon} alt="" /><p>getintouch@broqworks.com</p></a>
             </div>
             <div className="contact-detail">
-              <a href="tel:6264998754"><img src={call_icon} alt="" /><p>+91-6264-998-754</p></a>
+              <a href="tel:8178584661"><img src={call_icon} alt="" /><p>+91-8178-584-661</p></a>
             </div>
             <div className="contact-detail">
               <a href="https://maps.app.goo.gl/C6UEeGvLNMZvmbtd9"><img src={location_icon} alt="" /><p>Delhi,IN</p></a>

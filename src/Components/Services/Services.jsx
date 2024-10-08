@@ -29,7 +29,7 @@ const Services = () => {
       </div>
       <span className='scroll-control'>
       <div className="services-container">
-        {Services_Data.slice(0, 8).map((service, index) => (
+        {Services_Data.slice(0, 6).map((service, index) => (
           <div
           key={index}
           className="services-format"
@@ -45,10 +45,10 @@ const Services = () => {
         ))}
       </div>
         </span>
-      {/* <div className="mywork-showmore" onClick={handleShowMore}>
+      <div className="mywork-showmore" onClick={handleShowMore}>
         <p>Show More</p>
         <img src={arrow_icon} alt="" />
-      </div> */}
+      </div>
     </div>
   );
 };
