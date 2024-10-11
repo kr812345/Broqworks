@@ -31,10 +31,10 @@ const poster = () => {
               <div onClick={HandleClick && ToggleScroll}>
                 <RxCross1 className="cross" />
               </div>
-              <h2>getting your own website is just a click away.</h2>
-              <h4>enjoy free website and learn</h4>
+              <h2>Getting your FREE website & marketing Training is just a click away.</h2>
+              <h4>Get a professional website for FREE and learn how to boost gym membership with expert sales & marketing guidance.</h4>
               <a onClick={HandleClick && ToggleScroll} target="_blank" href="https://forms.gle/gdWr1bhE6To4dR4m8">
-                <button>Check it out!</button>
+                <button>Get it now!</button>
               </a>
             </div>
           </div>
