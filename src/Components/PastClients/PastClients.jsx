@@ -1,8 +1,8 @@
 import React from 'react'
 import './PastClients.css'
 import theme_pattern from '../../assets/theme_pattern.svg';
-import du from '../../assets/du.png'
-import tulogo from '../../assets/tulogo.png'
+import du from '../../assets/du.webp'
+import tulogo from '../../assets/tulogo.webp'
 
 const PastClients = () => {
   return (

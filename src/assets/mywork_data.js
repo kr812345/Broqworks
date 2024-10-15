@@ -1,21 +1,31 @@
-import Treebo from './Treebo.png'
-import gym from './gym.png'
-import Trigno from './Trigno.png'
-import Bidang from './Bidang.png'
-import BioFit from './BioFit.png'
+import Treebo from './Treebo.webp'
+import gym from './gym.webp'
+import Trigno from './Trigno.webp'
+import Bidang from './Bidang.webp'
+import BioFit from './BioFit.webp'
+import img1 from './img1.webp'
+import img2 from './img2.webp'
+import img3 from './img3.webp'
+import img4 from './img4.webp'
+import img5 from './img5.webp'
+import Quotall_Insurance_logo from './Quotall_Insurance_logo.webp'
+import rule_zero_logo from './rule_zero_logo.webp'
+import Aqua_logo from './Aqua_logo.webp'
+import UGlow_logo from './UGlow_logo.webp'
 
 
 const mywork_data = [
     { w_no: "01",
       category: "Web Design",
-      works: [
-        {
+        /*{
           w_name: "TERRA MAYAA",
           w_img: Treebo, // replace with actual image paths
           w_desc: "We designed and developed a dynamic hotel website aimed at offering a seamless user experience while showcasing the hotel's services and amenities. The website features a modern, elegant design, optimized for performance and responsiveness across devices.",
           w_web:"https://terramayaa.com/",
           w_result:"The result was a sleek, easy-to-navigate site that increased online bookings and boosted the hotel's digital presence, reflecting the brand's luxury and professionalism.",
-        },
+        },*/
+
+      works: [
         {
           w_name: "JUNA",
           w_img: gym,
@@ -54,25 +64,25 @@ const mywork_data = [
       works: [
         {
           w_name: "Product Photography",
-          w_img: "https://images.unsplash.com/photo-1630065612476-294f637f0248?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGd5bSUyMGluZGlhfGVufDB8fDB8fHww",
+          w_img: img1,
           w_desc: "The client required a series of professional portraits and action shots that capture the essence of their team in various work environments. The focus was on natural lighting, candid expressions, and showcasing the dynamic nature of their work. Each photograph highlights the unique personalities and skills of the team members, providing a compelling visual narrative for the client's portfolio. These images were meticulously edited to ensure consistency and quality across the entire portfolio, reflecting the professionalism and dedication of the client’s brand.",
          
         },
         {
           w_name: "Event Photography",
-          w_img: "https://images.unsplash.com/photo-1654764746264-e7cf2af29c7b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z3ltJTIwaW5kaWF8ZW58MHx8MHx8fDA%3D",
+          w_img: img2,
           w_desc:"The client required a series of professional portraits and action shots that capture the essence of their team in various work environments. The focus was on natural lighting, candid expressions, and showcasing the dynamic nature of their work. Each photograph highlights the unique personalities and skills of the team members, providing a compelling visual narrative for the client's portfolio. These images were meticulously edited to ensure consistency and quality across the entire portfolio, reflecting the professionalism and dedication of the client’s brand."
           
         },
         {
           w_name: "Product Photography",
-          w_img: "https://images.unsplash.com/photo-1630065612426-e03d3fec7348?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGd5bSUyMGluZGlhfGVufDB8fDB8fHww",
+          w_img: img3,
           w_desc: "The client required a series of professional portraits and action shots that capture the essence of their team in various work environments. The focus was on natural lighting, candid expressions, and showcasing the dynamic nature of their work. Each photograph highlights the unique personalities and skills of the team members, providing a compelling visual narrative for the client's portfolio. These images were meticulously edited to ensure consistency and quality across the entire portfolio, reflecting the professionalism and dedication of the client’s brand..",
           
         },
         {
           w_name: "Event Photography",
-          w_img: "https://plus.unsplash.com/premium_photo-1667520151564-6b9e833b8972?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzN8fGd5bSUyMGluZGlhfGVufDB8fDB8fHww",
+          w_img: img4,
           w_desc: "The client required a series of professional portraits and action shots that capture the essence of their team in various work environments. The focus was on natural lighting, candid expressions, and showcasing the dynamic nature of their work. Each photograph highlights the unique personalities and skills of the team members, providing a compelling visual narrative for the client's portfolio. These images were meticulously edited to ensure consistency and quality across the entire portfolio, reflecting the professionalism and dedication of the client’s brand..",
           
         },
@@ -84,25 +94,25 @@ const mywork_data = [
       works: [
         {
           w_name: "Product Photography",
-          w_img: "https://assets-global.website-files.com/5d31895cd7f4cd69e24e0c4a/5e7e59acdc544508b2e869d4_Quotall-Insurance-Logo-Redesign.jpg",
+          w_img: Quotall_Insurance_logo,
           w_desc: "The client required a series of professional portraits and action shots that capture the essence of their team in various work environments. The focus was on natural lighting, candid expressions, and showcasing the dynamic nature of their work. Each photograph highlights the unique personalities and skills of the team members, providing a compelling visual narrative for the client's portfolio. These images were meticulously edited to ensure consistency and quality across the entire portfolio, reflecting the professionalism and dedication of the client’s brand.",
          
         },
         {
           w_name: "Event Photography",
-          w_img: "https://cdn.prod.website-files.com/5d31895cd7f4cd69e24e0c4a/5e28d92607cff5aae69f8360_Aqua-Babies-Logo-Redesign.jpg",
+          w_img: Aqua_logo,
           w_desc:"The client required a series of professional portraits and action shots that capture the essence of their team in various work environments. The focus was on natural lighting, candid expressions, and showcasing the dynamic nature of their work. Each photograph highlights the unique personalities and skills of the team members, providing a compelling visual narrative for the client's portfolio. These images were meticulously edited to ensure consistency and quality across the entire portfolio, reflecting the professionalism and dedication of the client’s brand."
           
         },
         {
           w_name: "Product Photography",
-          w_img: "https://assets-global.website-files.com/5d31895cd7f4cd69e24e0c4a/5f875bf69dff537746e7490c_uGlow-logo-packaging.jpg",
+          w_img: UGlow_logo,
           w_desc: "The client required a series of professional portraits and action shots that capture the essence of their team in various work environments. The focus was on natural lighting, candid expressions, and showcasing the dynamic nature of their work. Each photograph highlights the unique personalities and skills of the team members, providing a compelling visual narrative for the client's portfolio. These images were meticulously edited to ensure consistency and quality across the entire portfolio, reflecting the professionalism and dedication of the client’s brand..",
           
         },
         {
           w_name: "Event Photography",
-          w_img: "https://assets-global.website-files.com/5d31895cd7f4cd69e24e0c4a/5f8f5b6218a3a202d4793a59_rule-zero-logo-design-mugs.jpg",
+          w_img: rule_zero_logo,
           w_desc: "The client required a series of professional portraits and action shots that capture the essence of their team in various work environments. The focus was on natural lighting, candid expressions, and showcasing the dynamic nature of their work. Each photograph highlights the unique personalities and skills of the team members, providing a compelling visual narrative for the client's portfolio. These images were meticulously edited to ensure consistency and quality across the entire portfolio, reflecting the professionalism and dedication of the client’s brand..",
           
         },
@@ -114,25 +124,25 @@ const mywork_data = [
       works: [
         {
           w_name: "Product Photography",
-          w_img: "https://images.unsplash.com/photo-1630065612476-294f637f0248?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGd5bSUyMGluZGlhfGVufDB8fDB8fHww",
+          w_img: img5,
           w_desc: "The client required a series of professional portraits and action shots that capture the essence of their team in various work environments. The focus was on natural lighting, candid expressions, and showcasing the dynamic nature of their work. Each photograph highlights the unique personalities and skills of the team members, providing a compelling visual narrative for the client's portfolio. These images were meticulously edited to ensure consistency and quality across the entire portfolio, reflecting the professionalism and dedication of the client’s brand.",
          
         },
         {
           w_name: "Event Photography",
-          w_img: "https://images.unsplash.com/photo-1654764746264-e7cf2af29c7b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z3ltJTIwaW5kaWF8ZW58MHx8MHx8fDA%3D",
+          w_img: img2,
           w_desc:"The client required a series of professional portraits and action shots that capture the essence of their team in various work environments. The focus was on natural lighting, candid expressions, and showcasing the dynamic nature of their work. Each photograph highlights the unique personalities and skills of the team members, providing a compelling visual narrative for the client's portfolio. These images were meticulously edited to ensure consistency and quality across the entire portfolio, reflecting the professionalism and dedication of the client’s brand."
           
         },
         {
           w_name: "Product Photography",
-          w_img: "https://images.unsplash.com/photo-1630065612426-e03d3fec7348?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGd5bSUyMGluZGlhfGVufDB8fDB8fHww",
+          w_img: img3,
           w_desc: "The client required a series of professional portraits and action shots that capture the essence of their team in various work environments. The focus was on natural lighting, candid expressions, and showcasing the dynamic nature of their work. Each photograph highlights the unique personalities and skills of the team members, providing a compelling visual narrative for the client's portfolio. These images were meticulously edited to ensure consistency and quality across the entire portfolio, reflecting the professionalism and dedication of the client’s brand..",
           
         },
         {
           w_name: "Event Photography",
-          w_img: "https://plus.unsplash.com/premium_photo-1667520151564-6b9e833b8972?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzN8fGd5bSUyMGluZGlhfGVufDB8fDB8fHww",
+          w_img: img4,
           w_desc: "The client required a series of professional portraits and action shots that capture the essence of their team in various work environments. The focus was on natural lighting, candid expressions, and showcasing the dynamic nature of their work. Each photograph highlights the unique personalities and skills of the team members, providing a compelling visual narrative for the client's portfolio. These images were meticulously edited to ensure consistency and quality across the entire portfolio, reflecting the professionalism and dedication of the client’s brand..",
           
         },

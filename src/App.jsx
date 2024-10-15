@@ -29,11 +29,11 @@ const App = () => {
         <Route path="/" element={
           <>
             <Hero />
-            <About />
             <Services />
             <MyWork />
             <PastClients/>
             <Team />
+            <About />
             <Contact />
           </>
         } />

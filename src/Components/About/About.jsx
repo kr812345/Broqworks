@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
-import logo from '../../assets/logo.png'
+import logo from '../../assets/logo.webp'
 
 
 const About = () => {

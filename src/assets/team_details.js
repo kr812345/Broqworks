@@ -1,7 +1,7 @@
 
-import Manager from './Manager.jpg'
-import Founder from './Founder.png'
-import Krishna from './Krishna.jpg'
+import Manager from './Manager.webp'
+import Founder from './Founder.webp'
+import Krishna from './Krishna.webp'
 
 const Team_details = [
   {
@@ -12,7 +12,7 @@ const Team_details = [
   {
     s_image: Manager,
     s_name: "Kamal Saloi",
-    s_role: "Manager, BroqWorks"
+    s_role: "Co-founder, BroqWorks"
   },
   {
     s_image: Krishna,
