@@ -2,7 +2,6 @@ import React from 'react'
 import './Footer.css'
 import footer_logo from '../../assets/footer_logo.svg'
 import user_icon from '../../assets/user_icon.svg'
-import cr from '../../assets/cr.png'
 import logo_png from '../../assets/logo_png.webp'
 import TC from "../../assets/Terma of Service.pdf"
 import PP from "../../assets/PP.pdf"
