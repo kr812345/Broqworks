@@ -86,9 +86,9 @@
 
 @media (max-width: 768px) {
     .poster-bg {
-        width: 99vw;
+        width: 100vw;
         height: 100vh;
-        margin-top: 120px;
+        margin-top: -120px;
         z-index: 1000000;
         justify-content: center;
     }
