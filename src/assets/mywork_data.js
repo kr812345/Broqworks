@@ -12,6 +12,10 @@ import Quotall_Insurance_logo from './Quotall_Insurance_logo.webp'
 import rule_zero_logo from './rule_zero_logo.webp'
 import Aqua_logo from './Aqua_logo.webp'
 import UGlow_logo from './UGlow_logo.webp'
+import meridian_fitness from './meridian_fitness.webp'
+import fitus_gym from './fitus_gym.webp'
+import zest_fitness from './zest_fitness.webp'
+import invictus_fitness from './invictus_fitness.webp'
 
 
 const mywork_data = [
@@ -27,33 +31,33 @@ const mywork_data = [
 
       works: [
         {
-          w_name: "JUNA",
-          w_img: gym,
+          w_name: "Meridian Fitness",
+          w_img: meridian_fitness,
           w_desc: "We were tasked with designing and developing a fully functional gym website that aligned with the client's brand and provided a seamless user experience. The website was built with a sleek, dark-themed design to create a modern and professional look, tailored specifically for a fitness audience.",
-          w_web:"https://juna.in/",
+          w_web:"https://meridianfitness.in/",
           w_result:"The website effectively improved the client's online presence, drawing more visitors, boosting engagement, and leading to an increase in gym membership sign-ups. The client was highly satisfied with the clean interface and its easy-to-update content."
         },
         {
-          w_name: "TRINGO",
-          w_img: Trigno, // replace with actual image paths
+          w_name: "Fitus Gym",
+          w_img: fitus_gym, // replace with actual image paths
           w_desc: "We were tasked with designing and developing a fully functional gym website that aligned with the client's brand and provided a seamless user experience. The website was built with a sleek, dark-themed design to create a modern and professional look, tailored specifically for a fitness audience.",
-          w_web:"https://trignothegym.com/",
+          w_web:"https://fitus.fantasysportsbind.com/?gclid=Cj0KCQjwyL24BhCtARIsALo0fSBl2NpTkekBXwmk0E3wu39RTzEKRYipb4WAgdJPFT7UNyd_EXSRH_AaAmSfEALw_wcB&campid=21758017827&adposition&placement&device=c&devicemodel=Cj0KCQjwyL24BhCtARIsALo0fSBl2NpTkekBXwmk0E3wu39RTzEKRYipb4WAgdJPFT7UNyd_EXSRH_AaAmSfEALw_wcB&creative=715328143659&target=kwd-5321621678&keyword=gym%20near%20me&matchtype=b&adgroupid=168100374653&gad_source=1",
           w_result:"The new design significantly enhanced the client's digital brand presence. The website attracted more traffic, resulting in increased inquiries and sign-ups for gym memberships. The clean, professional look and seamless navigation were particularly appreciated by users and helped the gym stand out from local competitors."
 
         },
         
         {
-          w_name: "BIDANG",
-          w_img: Bidang,
+          w_name: "Zest Fitness Studio",
+          w_img: zest_fitness,
           w_desc: "We were tasked with designing and developing a fully functional gym website that aligned with the client's brand and provided a seamless user experience. The website was built with a sleek, dark-themed design to create a modern and professional look, tailored specifically for a fitness audience.",
-          w_web:"https://www.bidangmma.com/index.php",
+          w_web:"https://www.zestfitnessstudio.com/",
           w_result:"The website helped the client improve customer engagement by making it easy for visitors to explore services and sign up for classes. The intuitive design and interactive elements resulted in a noticeable increase in user retention and conversions, ultimately boosting the gym's membership growth."
         },
         {
-          w_name: "BIOFIT GYM",
-          w_img: BioFit,
+          w_name: "Invictus Athletic Club",
+          w_img: invictus_fitness,
           w_desc: "We were tasked with designing and developing a fully functional gym website that aligned with the client's brand and provided a seamless user experience. The website was built with a sleek, dark-themed design to create a modern and professional look, tailored specifically for a fitness audience.",
-          w_web:"https://biofitgym.com/BiofitGym/Home.jsp",
+          w_web:"https://www.clubinvictus.com/",
           w_result:"The website helped the client improve customer engagement by making it easy for visitors to explore services and sign up for classes. The intuitive design and interactive elements resulted in a noticeable increase in user retention and conversions, ultimately boosting the gym's membership growth."
         },
       ],

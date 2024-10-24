@@ -1,15 +1,27 @@
-.home {
+ .home {
     margin-top: -60px;
-    height: 80vh;
-    padding: 190px 100px;
-    opacity: .9;
-    font-size: 40px;
-    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+    height: 90vh;
+    padding: 80px 70px;
+    opacity: .95;
+    font-size: 80px;
+    background-color: #f7c80d;
+    /* background: #F3CB01; */
+    position: relative;
     display: flex;
 }
 
+.home .left-side h1::selection {
+    color:#f7c80d;
+    background-color: #d900ff;
+}
+.home .left-side p::selection {
+    color:#f7c80d;
+    background-color: #d900ff;
+}
+
 .home .left-side {
-    width: 45%;
+    width: 100%;
+    z-index: 100;
 }
 
 .home .left-side .connect{
@@ -22,39 +34,34 @@
 }
 
 .home .left-side p {
-    margin: 20px 0px;
-    font-size: 1rem;
+    margin: 50px 40% 20px 0px;
+    font-size: .3em;
+    font-weight: 900;
 }
 
 .home .left-side h5 {
     margin: 0px 0px 30px 0px;
-    font-size: .7em;
+    width: 330px;
+    font-size: 2.5em;
+    font-weight: 700;
 }
 
 .home .left-side .contact-details {
     flex-direction: row;
 }
 
+.home .left-side .contact-details a p{
+    margin-bottom: 55px;
+}
 
 .home .right-side {
-    width: 55%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    right: 10%;
+    top: 25%;
+    scale: 1.5;
+    width: 30%;
+    position: absolute;
 }
 
-.home .right-side img {
-    height: 50vh;
-    border-radius: 10px;
-    margin-left: 50px;
-}
-
-.hero{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 20px;
-}
 .profile-img{
     margin-top: -200px;
     /* width: 336px; */
@@ -94,10 +101,6 @@
     margin-bottom: 50px;
 }
 .hero-connect{
-    padding: 20px 30px;
-    border-radius: 50px;
-    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
-    cursor: pointer;
     visibility: hidden;
 }
 .hero-resume{
@@ -114,59 +117,86 @@
 }
 
 
-@media(max-width:768px){
+
+@media(max-width: 768px){
 
     .home {
-        overflow: hidden;
-        flex-direction: column;
-        padding: 60px 20px;
+        padding: 0px 0px;
         height: 80vh;
-        margin: -70px 0px 50px 0px;
+        margin: -90px 0px 150px 0px;
+        color: black;
+        text-align: center;
     }
-
+    
     .home .left-side {
-        margin: 0px;
+        margin: 80px 0px 0px 0px;
         width: 100%;
+        
     }
     .home .left-side h1 {
-        font-size: .7em;
+        font-size: .5em;
     }
-
+    
+    .home .left-side .para {
+        font-size: .2em;
+        font-weight: 400;
+        width: 90%;
+        margin: auto;
+    }
+    
     .home .left-side .contact-details{
         flex-direction: column;
-        h5 {
-            margin: -10px 0px;
-            
-        }
-        .icon_ {
-            margin: 10px -10px 10px 0px;
-            padding: -10px 10px;
-            transform: scale(.8);
-        }
-    
+        display: none;
+    }
+
+    .home .left-side .contact-details h5 {
+        margin: -10px 0px;
+    }
+
+    .home .left-side .contact-details h5 p {
+        color: black;
+    }
+
+    .home .left-side .contact-details h5 .icon_ {
+        margin: 10px -10px 10px 0px;
+        padding: -10px 10px;
+        transform: scale(.8);
+        color: #000000;
     }
 
     .home .left-side .connect {
         display: block;
-        background-color: #ffffff;
-        border-radius: 50px;
-        font-size: 30px;
-        width: fit-content;
-        padding: 10px 20px;
-        margin: 70px 60px;
+        background-color: #5c0ee3;
+        opacity: .9;
+        border-radius: 16px;
+        font-size: 12px;
+        width: 90%;
+        padding: 10px 0px;
+        font-weight: 100;
+        margin: 30px auto;
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     }
-
+    
     .home .left-side .connect h5{
-        background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
+        background: #FFF;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         margin: 0px;
     }
     .home .right-side {
-        display: none;
+        top: 50vh;
+        left: 0px;
+        scale: .8;
     }
 
+    .h-bottom {
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    .h-bottom p{
+        font-size: 20px;
+        padding: 10px 0px;
+    }
     .hero{
         margin-top: -320px;
     }

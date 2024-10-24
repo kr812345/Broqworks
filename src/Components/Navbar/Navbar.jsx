@@ -6,7 +6,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 import menu_open from '../../assets/menu_open.svg'
 import menu_close from '../../assets/menu_close.svg'
 import { useNavigate } from 'react-router-dom'
-
+import { FaArrowRight } from "react-icons/fa";
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -37,7 +37,7 @@ const Navbar = () => {
         <li><AnchorLink className='anchor-link' offset={50} href='#work'><p onClick={()=>setMenu("work")}>Our works</p></AnchorLink>{menu==="work"?<img src={underline} alt=''/>:<></>}</li>
         <li><AnchorLink className='anchor-link' offset={50} href='#contact'><p onClick={()=>setMenu("contact")}>Contact</p></AnchorLink>{menu==="contact"?<img src={underline} alt=''/>:<></>}</li>
       </ul>
-      <div className="nav-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect With Us</AnchorLink></div>
+      <div className="nav-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect With Us <FaArrowRight className='arrow-icon' /></AnchorLink></div>
     </div>
   )
 }
