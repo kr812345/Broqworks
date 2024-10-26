@@ -45,7 +45,7 @@ const Services = () => {
         ))}
       </div>
         </span>
-      <div className="mywork-showmore" onClick={handleShowMore}>
+      <div className="mywork-showmore text-black" onClick={handleShowMore}>
         <p>Show More</p>
         <img src={arrow_icon} alt="" />
       </div>

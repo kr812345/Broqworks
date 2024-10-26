@@ -1,0 +1,29 @@
+.services {
+    height: 100vh;
+    display: flex;
+    position: relative;
+    padding: 96px;
+    scroll-behavior: smooth;
+}
+
+hr {
+    opacity: .3;
+}
+
+.services .CTA {
+    /* margin: 96px; */
+    /* width: 288px; */
+    height: inherit;
+    justify-content: center;
+}
+
+.services .right {
+    width: 60vw;
+}
+
+@media (max-width: 768px) {
+    .CTA {
+        display: none;
+    }
+
+}
